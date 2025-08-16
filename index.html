@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Manakha Rotana Madina - International Clocks and Currency Exchange Rates</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="main-title">Al Manakha Rotana Madina</h1>
+        </div>
+        <div class="world-clock">
+            <div class="clock-container">
+                <div class="clock">
+                    <div class="clock-name">Madinah</div>
+                    <div id="madinah-time">--:--:--</div>
+                </div>
+                <div class="clock">
+                    <div class="clock-name">New York</div>
+                    <div id="ny-time">--:--:--</div>
+                </div>
+                <div class="clock jakarta-clock">
+                    <div class="clock-name">Jakarta</div>
+                    <div id="jakarta-time">--:--:--</div>
+                </div>
+                <div class="clock london-clock">
+                    <div class="clock-name">London</div>
+                    <div id="london-time">--:--:--</div>
+                </div>
+                <div class="clock">
+                    <div class="clock-name">Moscow</div>
+                    <div id="moscow-time">--:--:--</div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow-container">
+            <div class="slideshow">
+                <!-- Assuming images are named 1.jpg, 2.jpg, ..., 17.jpg and are in the 'images' directory -->
+                <img src="images/1.jpg" class="active">
+                <img src="images/2.jpg">
+                <img src="images/3.jpg">
+                <img src="images/4.jpg">
+                <img src="images/5.jpg">
+                <img src="images/6.jpg">
+                <img src="images/7.jpg">
+                <img src="images/8.jpg">
+                <img src="images/9.jpg">
+                <img src="images/10.jpg">
+                <img src="images/11.jpg">
+                <img src="images/12.jpg">
+                <img src="images/13.jpg">
+                <img src="images/14.jpg">
+                <img src="images/15.jpg">
+                <img src="images/16.jpg">
+                <img src="images/17.jpg">
+            </div>
+        </div>
+        <div class="currency-rates">
+            <h2>Currency Exchange Rates (Other Currencies to SAR)</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="flags/us.png" alt="US Flag" class="flag"> 
+                            <span>US Dollar</span> 
+                            <span id="usd-sar-rate">3.56</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="flags/gb.png" alt="UK Flag" class="flag"> 
+                            <span>British Pound</span> 
+                            <span id="gbp-sar-rate">4.75</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="flags/eu.png" alt="EU Flag" class="flag"> 
+                            <span>Euro</span> 
+                            <span id="eur-sar-rate">4.10</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="flags/kw.png" alt="Kuwait Flag" class="flag"> 
+                            <span>Kuwaiti Dinar</span> 
+                            <span id="kwd-sar-rate">11.58</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="flags/bh.png" alt="Bahrain Flag" class="flag"> 
+                            <span>Bahraini Dinar</span> 
+                            <span id="bhd-sar-rate">9.38</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="flags/ae.png" alt="UAE Flag" class="flag"> 
+                            <span>UAE Dirham</span> 
+                            <span id="aed-sar-rate">0.97</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="flags/om.png" alt="Oman Flag" class="flag"> 
+                            <span>Omani Rial</span> 
+                            <span id="omr-sar-rate">9.18</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="flags/qa.png" alt="Qatar Flag" class="flag"> 
+                            <span>Qatari Riyal</span> 
+                            <span id="qar-sar-rate">0.97</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
